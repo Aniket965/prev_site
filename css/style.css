@@ -51,3 +51,13 @@ z-index: -1;
 bottom: 15%;
 
 }
+.white-box-1 {
+display: block;
+top:20vh;
+position: relative;
+
+width: 70vw;
+height: 45vw;
+left: -35vw;
+margin-left: 50%;
+}
