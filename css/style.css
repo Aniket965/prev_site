@@ -1,3 +1,28 @@
-h1 {
-color: red;
+
+body{
+    margin: 10px;
+    background-color: #eee;
+}
+img {
+    display: block;
+    width: 40vw;
+    height: 16vw;
+    
+    position: relative;
+    top: -6vw;
+    left: -8vw;
+    z-index: 2;
+}
+
+.white-box {
+display: block;
+top:20vh;
+position: relative;
+background-color: #fff;
+width: 70vw;
+height: 45vw;
+left: -35vw;
+margin-left: 50%;
+box-shadow: 0px 15px 60px -20px;
+
 }
