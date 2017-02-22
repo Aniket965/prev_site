@@ -66,6 +66,10 @@ left: -35vw;
 margin-top:40vh;
 margin-left: 50%;
 }
+canvas{
+    display: block;
+    z-index: 1;
+}
 @media screen and (max-width: 980px) {
 .white-box{
     margin-top:15vh;
