@@ -1,6 +1,5 @@
-$('document').ready(function(){
   function preload(){
-  font = loadFont("https://github.com/Aniket965/Aniket965.github.io/blob/master/assets/lato.ttf?raw=true");
+  font = loadFont("assets/lato.ttf");
 }
 function setup() {
  
@@ -18,10 +17,11 @@ function draw() {
     var fontpoints = font.textToPoints('Aniket965',200,200);
   for(var i =0 ;i < fontpoints.length;i++){
    stroke(mouseX,random(0,255),mouseY);
+   console.log('hi');
    strokeWeight(2);
    ellipse(fontpoints[i].x,fontpoints[i].y,random(1,9),random(1,9));
    rect(fontpoints[i].x,fontpoints[i].y,random(1,2),random(1,2));
  }
 }
-});
+
 
