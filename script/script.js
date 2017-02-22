@@ -1,7 +1,6 @@
 $('document').ready(function(){
-   $('.can').ready(function(){
-       function preload(){
-  font = loadFont("assets/lato.ttf");
+  function preload(){
+  font = loadFont("https://github.com/Aniket965/Aniket965.github.io/blob/master/assets/lato.ttf?raw=true");
 }
 function setup() {
  
@@ -24,6 +23,5 @@ function draw() {
    rect(fontpoints[i].x,fontpoints[i].y,random(1,2),random(1,2));
  }
 }
-   })
 });
 
