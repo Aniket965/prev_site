@@ -18,7 +18,7 @@ img {
 
 .white-box {
 display: block;
- margin-top:35vh;
+ margin-top:70vh;
 position: relative;
 background-color: #fff;
 width: 70vw;
@@ -41,7 +41,7 @@ font-weight: 400;
 line-height: 2em;
 left: -6vw;
 bottom: -5vw;
-
+z-index:2;
 }
 
 
@@ -56,6 +56,7 @@ z-index: -1;
 bottom: 15%;
 
 }
+
 .white-box-1 {
 display: block;
 padding-top:20vh;
@@ -72,8 +73,7 @@ canvas{
     top:0;
     left:0;
 
-    width: inherit!important;
-    height: inherit!important;
+  
 }
 @media screen and (max-width: 980px) {
 .white-box{
