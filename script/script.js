@@ -2,14 +2,14 @@
   font = loadFont("assets/lato.ttf");
 }
 function setup() {
-
+var can =createCanvas(1200,500);
+  can.parent('aniBox');
   }
 
 
 
 function draw() {
-  var can =createCanvas(1200,500);
-  can.parent('aniBox');
+  
   background(255);
    textSize(200);
     fill(255);
