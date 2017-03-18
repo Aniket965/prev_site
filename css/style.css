@@ -127,4 +127,29 @@ canvas{
     font-style: bold;
     /*color: #000;*/
 }
+.card{
+    display: block;
+    width:100px!important;
+    height:100px!important;
+    float: left;
+    margin: 10px;
+}
+.social-links{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+.social{
+    margin-left:15%;
+    width:80%;
+
+}
+.waves-effect.waves-blue .waves-ripple {
+  background-color:  #2196f3;
+}
+
+.waves-effect.waves-brown .waves-ripple {
+  background-color: #8d6e63;
+}
+
 
