@@ -76,6 +76,7 @@ canvas{
   
 }
 @media screen and (max-width: 980px) {
+
 .white-box{
     margin-top:15vh;
 }
@@ -87,6 +88,20 @@ canvas{
 .white-box-1{
     margin-top:0vh;
 }
+.chip{
+    /*height: 10px;*/
+    font-size: 5px!important;
+    color: #000!important;
+
+}
+.skill-chips{
+    display: block;
+    position: absolute;
+    width: 100%!important;
+    margin-left: 0!important;
+    left: 0!important;
+}
+
         
     }
 /*Main view*/
@@ -96,4 +111,19 @@ canvas{
  
 }
 
+/*#card-MainView{
+    margin-left: 50%;
+    position: absolute;
+}*/
+.skill-chips{
+    display: block;
+    position: absolute;
+    width: 40vw;
+    margin-left: 50%;
+    left: -20vw;
+}
+.chip{
+    font-size: 20px;
+    color: #000;
+}
 
