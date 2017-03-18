@@ -17,15 +17,15 @@ img {
 }
 
 .white-box {
-display: block;
- margin-top:35vh;
-position: relative;
-background-color: #fff;
-width: 70vw;
-height: 45vw;
-left: -35vw;
-margin-left: 50%;
-box-shadow: 10px 15px 60px -20px;
+    display: block;
+    margin-top:35vh;
+    position: relative;
+    background-color: #fff;
+    width: 70vw;
+    height: 45vw;
+    left: -35vw;
+    margin-left: 50%;
+    box-shadow: 10px 15px 60px -20px;
 
 }
 .skills{
@@ -89,3 +89,11 @@ canvas{
 }
         
     }
+/*Main view*/
+#mainView{
+
+ /*background: pink!important;*/
+ 
+}
+
+

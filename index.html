@@ -5,6 +5,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/style.css"></link>
    
   <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
@@ -13,9 +17,20 @@
 </head>
 <body id="aniBox">
    <div class="whole-box">
-
+       <!--floating action button for social connections-->
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
     
-    <div class="white-box"  >
+    <div class="white-box" id="mainView" >
         <img src="images/aniket965.png" alt="aniket965">
         <div class="detail-box"><strong>Aniket965 loves developing</strong><br>
         He likes to play with code and <br>make some cool stuff in free<br> time.
@@ -25,7 +40,8 @@
     <div class ="topic-number">01</div>
         </div>
 
-        <div class="white-box" >
+        <div class="white-box" id="Coffeehack">
+            <div class=""></div>
         <img src="images/coffeehack.png" alt="Coffeehack"style="left:20%;">
         <div class="detail-box" style="left:20%;bottom: -40%;"><strong>Coffeehack an OpenSource light</strong><br>
         Coffeehack was an OpenSource <br>organsition founded by aniket965<br> and co-founded by RishabMalik <br>and playing with New technolgies.
@@ -51,14 +67,6 @@
         
     <div class ="topic-number">05</div>
         </div>
-
-        
- <div class="white-box-1">
-     
- </div>
-
-        
-    
     
    </div>
 </body>
