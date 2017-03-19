@@ -145,11 +145,18 @@ canvas{
 
 }
 .waves-effect.waves-blue .waves-ripple {
-  background-color:  #2196f3;
+  background-color:  #1F97E0;
 }
 
 .waves-effect.waves-brown .waves-ripple {
-  background-color: #8d6e63;
+  background-color: #F15927;
 }
 
 
+.waves-effect.waves-fb-blue .waves-ripple{
+    background-color:#3B5998; 
+}
+
+.waves-effect.waves-github .waves-ripple{
+    background-color: #C6E48B;
+}
