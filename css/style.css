@@ -129,20 +129,19 @@ canvas{
 }
 .card{
     display: block;
-    width:100px!important;
-    height:100px!important;
+    width:7vw!important;
+    height:7vw!important;
     float: left;
     margin: 10px;
 }
 .social-links{
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 7vw;
+    height: 7vw;
 }
 .social{
     margin-left:15%;
     width:80%;
-
 }
 .waves-effect.waves-blue .waves-ripple {
   background-color:  #1F97E0;
