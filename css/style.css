@@ -1,6 +1,4 @@
-html {
-    
-}
+
 body{
     margin: 10px;
     background-color: #eee;
@@ -129,27 +127,33 @@ canvas{
 }
 .card{
     display: block;
-    width:100px!important;
-    height:100px!important;
+    width:7vw!important;
+    height:7vw!important;
     float: left;
     margin: 10px;
 }
 .social-links{
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 7vw;
+    height: 7vw;
 }
 .social{
     margin-left:15%;
     width:80%;
-
 }
 .waves-effect.waves-blue .waves-ripple {
-  background-color:  #2196f3;
+  background-color:  #1F97E0;
 }
 
 .waves-effect.waves-brown .waves-ripple {
-  background-color: #8d6e63;
+  background-color: #F15927;
 }
 
 
+.waves-effect.waves-fb-blue .waves-ripple{
+    background-color:#3B5998; 
+}
+
+.waves-effect.waves-github .waves-ripple{
+    background-color: #C6E48B;
+}
