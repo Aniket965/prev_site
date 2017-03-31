@@ -114,6 +114,7 @@ canvas{
     position: absolute;
 }*/
 .skill-chips{
+    position:absolute;
     display: block;
     position: absolute;
     width: 40vw;
