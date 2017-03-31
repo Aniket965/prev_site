@@ -114,7 +114,6 @@ canvas{
     position: absolute;
 }*/
 .skill-chips{
-    position:absolute;
     display: block;
     position: absolute;
     width: 40vw;
@@ -122,7 +121,6 @@ canvas{
     left: -20vw;
 }
 .chip{
-    position:absolute;
     font-size: 16px;
     font-style: bold;
     /*color: #000;*/
