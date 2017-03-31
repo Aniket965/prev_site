@@ -27,7 +27,7 @@ img {
 
 }
 .skills{
-     margin-top:-15vh;
+     margin-top:inherit;
 }
 .detail-box {
     display: block;
@@ -80,7 +80,7 @@ canvas{
 }
 
 .skills {
-    margin-top:-5vh;
+    margin-top:inherit;
 }
 
 .white-box-1{
