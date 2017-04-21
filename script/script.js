@@ -32,16 +32,16 @@ $(document).ready(function () {
 
     var scrollable_height = height - window_height;
 
-    $( window ).scroll(function() {
-        var percent_page_scrolled = Math.floor((body.scrollTop / scrollable_height) * 100) ;
-       if(percent_page_scrolled > 100) {
-           percent_page_scrolled = 100;
-       }
+    $(window).scroll(function () {
+        var percent_page_scrolled = Math.floor((body.scrollTop / scrollable_height) * 100);
+        if (percent_page_scrolled > 100) {
+            percent_page_scrolled = 100;
+        }
 
-       $(".progress-bar").css("width" , percent_page_scrolled + "%");
-    
+        $(".progress-bar").css("width", percent_page_scrolled + "%");
 
-});
+
+    });
 
 
 
