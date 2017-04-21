@@ -75,7 +75,7 @@ canvas {
 @media screen and (max-width: 980px) {
     .fixed-action-btn {
         display: none;
-        width :none;
+        width: none;
     }
     .white-box {
         margin-top: 15vh;
@@ -161,4 +161,12 @@ canvas {
 
 .waves-effect.waves-github .waves-ripple {
     background-color: #C6E48B;
+}
+
+.progress {
+    position: fixed !important;
+    bottom: -3vh;
+    height: 3vh;
+    left: 0;
+    z-index: 26;
 }
