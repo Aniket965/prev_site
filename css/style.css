@@ -98,6 +98,9 @@ canvas {
         margin-left: 0!important;
         left: 0!important;
     }
+    .progress {
+        display: none;
+    }
 }
 
 

@@ -39,7 +39,7 @@ $(document).ready(function () {
        }
 
        $(".progress-bar").css("width" , percent_page_scrolled + "%");
-        console.log(percent_page_scrolled);
+    
 
 });
 
