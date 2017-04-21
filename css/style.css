@@ -1,9 +1,9 @@
-
-body{
+body {
     margin: 10px;
     background-color: #eee;
     overflow-x: hidden;
 }
+
 img {
     display: block;
     width: 40vw;
@@ -16,7 +16,7 @@ img {
 
 .white-box {
     display: block;
-    margin-top:35vh;
+    margin-top: 35vh;
     position: relative;
     background-color: #fff;
     width: 70vw;
@@ -24,137 +24,141 @@ img {
     left: -35vw;
     margin-left: 50%;
     box-shadow: 10px 15px 60px -20px;
-
-}
-.skills{
-     margin-top:inherit;
-}
-.detail-box {
-    display: block;
-    position: relative;
-font-family: 'Roboto', sans-serif;
-color: #000;
-font-size: 1.9vw;
-font-weight: 400;
-line-height: 2em;
-left: -6vw;
-bottom: -5vw;
-z-index:2;
-}
-
-
-.topic-number {
- display: block;
- position: relative;
-font-family: 'Roboto', sans-serif;
-color: #fff;
-font-size: 25vw;
-left: 85%;
-z-index: -1;
-bottom: 15%;
-
-}
-
-.white-box-1 {
-display: block;
-padding-top:20vh;
-position: relative;
-width: 35vw;
-height: 20vh;
-left: -35vw;
-margin-top:40vh;
-margin-left: 50%;
-}
-canvas{
-    display: block;
-    position: absolute;
-    top:0;
-    left:0;
-
-  
-}
-@media screen and (max-width: 980px) {
-
-.white-box{
-    margin-top:15vh;
 }
 
 .skills {
-    margin-top:inherit;
+    margin-top: inherit;
 }
 
-.white-box-1{
-    margin-top:0vh;
+.detail-box {
+    display: block;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1.9vw;
+    font-weight: 400;
+    line-height: 2em;
+    left: -6vw;
+    bottom: -5vw;
+    z-index: 2;
 }
-.chip{
-    /*height: 10px;*/
-    font-size: 5px!important;
-    color: #000!important;
 
+.topic-number {
+    display: block;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 25vw;
+    left: 85%;
+    z-index: -1;
+    bottom: 15%;
 }
-.skill-chips{
+
+.white-box-1 {
+    display: block;
+    padding-top: 20vh;
+    position: relative;
+    width: 35vw;
+    height: 20vh;
+    left: -35vw;
+    margin-top: 40vh;
+    margin-left: 50%;
+}
+
+canvas {
     display: block;
     position: absolute;
-    width: 100%!important;
-    margin-left: 0!important;
-    left: 0!important;
+    top: 0;
+    left: 0;
 }
 
-        
+@media screen and (max-width: 980px) {
+    .fixed-action-btn {
+        display: none;
+        width :none;
     }
-/*Main view*/
-#mainView{
-
- /*background: pink!important;*/
- 
+    .white-box {
+        margin-top: 15vh;
+    }
+    .skills {
+        margin-top: inherit;
+    }
+    .white-box-1 {
+        margin-top: 0vh;
+    }
+    .chip {
+        /*height: 10px;*/
+        font-size: 5px!important;
+        color: #000!important;
+    }
+    .skill-chips {
+        display: block;
+        position: absolute;
+        width: 100%!important;
+        margin-left: 0!important;
+        left: 0!important;
+    }
 }
+
+
+/*Main view*/
+
+#mainView {
+    /*background: pink!important;*/
+}
+
 
 /*#card-MainView{
     margin-left: 50%;
     position: absolute;
 }*/
-.skill-chips{
-    position:absolute;
+
+.skill-chips {
+    position: absolute;
     display: block;
     position: absolute;
     width: 40vw;
     margin-left: 50%;
     left: -20vw;
 }
-.chip{
+
+.chip {
     font-size: 16px;
     font-style: bold;
     /*color: #000;*/
 }
-.card{
+
+.card {
     display: block;
-    width:7vw!important;
-    height:7vw!important;
+    width: 7vw!important;
+    height: 7vw!important;
     float: left;
     margin: 10px;
 }
-.social-links{
+
+.social-links {
     display: block;
     width: 7vw;
     height: 7vw;
 }
-.social{
-    margin-left:15%;
-    width:80%;
+
+.social {
+    margin-left: 15%;
+    width: 80%;
 }
+
 .waves-effect.waves-blue .waves-ripple {
-  background-color:  #1F97E0;
+    background-color: #1F97E0;
 }
 
 .waves-effect.waves-brown .waves-ripple {
-  background-color: #F15927;
+    background-color: #F15927;
 }
 
-
-.waves-effect.waves-fb-blue .waves-ripple{
-    background-color:#3B5998; 
+.waves-effect.waves-fb-blue .waves-ripple {
+    background-color: #3B5998;
 }
 
-.waves-effect.waves-github .waves-ripple{
+.waves-effect.waves-github .waves-ripple {
     background-color: #C6E48B;
 }
