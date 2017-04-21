@@ -165,8 +165,9 @@ canvas {
 
 .progress {
     position: fixed !important;
-    bottom: -3vh;
+    bottom: 3vh;
     height: 3vh;
-    left: 0;
+     top: 97vh;
+  left: 0;
     z-index: 26;
 }
