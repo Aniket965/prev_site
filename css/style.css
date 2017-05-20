@@ -1,7 +1,8 @@
-body {
-    margin: 10px;
+body {      
+    width: 100vw;
+    height: 100vh;
     background-color: #eee;
-    overflow-x: hidden;
+  
 }
 
 img {
@@ -83,49 +84,23 @@ canvas {
     left: 0;
 }
 
-@media screen and (max-width: 980px) {
-    .fixed-action-btn {
-        display: none;
-        width: none;
-    }
-    .white-box {
-        margin-top: 15vh;
-    }
-    .skills {
-        margin-top: inherit;
-    }
-    .white-box-1 {
-        margin-top: 0vh;
-    }
-    .chip {
-        /*height: 10px;*/
-        font-size: 5px!important;
-        color: #000!important;
-    }
-    .skill-chips {
-        display: block;
-        position: absolute;
-        width: 100%!important;
-        margin-left: 0!important;
-        left: 0!important;
-    }
-    .progress {
-        display: none;
-    }
-}
-
 
 /*Main view*/
-
-#mainView {
-    /*background: pink!important;*/
-}
 
 
 /*#card-MainView{
     margin-left: 50%;
     position: absolute;
 }*/
+
+.links-view {
+    left: 50%;
+    position: absolute!important;
+}
+
+.links-view-mobo {
+    display: none;
+}
 
 .skill-chips {
     position: absolute;
@@ -144,8 +119,8 @@ canvas {
 
 .card {
     display: block;
-    width: 7vw!important;
-    height: 7vw!important;
+    width: 7vw;
+    height: 7vw;
     float: left;
     margin: 10px;
 }
@@ -184,4 +159,43 @@ canvas {
     top: 97vh;
     left: 0;
     z-index: 26;
+}
+
+@media screen and (max-width: 980px) {
+    .white-box {
+        margin-top: 15vh;
+        width: 70vw;
+        height: 70vh;
+    }
+    .detail-box {
+        font-size: 1em;
+    }
+    .skills {
+        margin-top: inherit;
+    }
+    .white-box-1 {
+        margin-top: 0vh;
+    }
+    .links-view {
+        display: none;
+    }
+    .links-view-mobo {
+        display: block;
+        position: relative;
+        top: 10%;
+    }
+    .card {
+        margin: 5px;
+    }
+    .topic-number {
+        display: block;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 25vw;
+        text-align: justify;
+        
+        z-index: -1;
+        bottom: -35%;
+    }
 }
