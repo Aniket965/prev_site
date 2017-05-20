@@ -23,25 +23,25 @@ $(document).ready(function () {
     $('#linkedin').click(function () {
         window.open("https://www.linkedin.com/in/aniket-sharma-548413131/", "linkedin");
     });
-    var body = document.body,
-        html = document.documentElement;
+    // var body = document.body,
+    //     html = document.documentElement;
 
-    var height = Math.max(body.scrollHeight, body.offsetHeight,
-        html.clientHeight, html.scrollHeight, html.offsetHeight);
-    var window_height = window.innerHeight;
+    // var height = Math.max(body.scrollHeight, body.offsetHeight,
+    //     html.clientHeight, html.scrollHeight, html.offsetHeight);
+    // var window_height = window.innerHeight;
 
-    var scrollable_height = height - window_height;
+    // var scrollable_height = height - window_height;
 
-    $(window).scroll(function () {
-        var percent_page_scrolled = Math.floor((body.scrollTop / scrollable_height) * 100);
-        if (percent_page_scrolled > 100) {
-            percent_page_scrolled = 100;
-        }
+    // $(window).scroll(function () {
+    //     var percent_page_scrolled = Math.floor((body.scrollTop / scrollable_height) * 100);
+    //     if (percent_page_scrolled > 100) {
+    //         percent_page_scrolled = 100;
+    //     }
 
-        $(".progress-bar").css("width", percent_page_scrolled + "%");
+    //     $(".progress-bar").css("width", percent_page_scrolled + "%");
 
 
-    });
+    // });
 
 
 

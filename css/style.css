@@ -16,7 +16,7 @@ img {
 
 .white-box {
     display: block;
-    margin-top: 35vh;
+    margin-top: 25vh;
     position: relative;
     background-color: #fff;
     width: 70vw;
@@ -49,7 +49,18 @@ img {
     font-family: 'Roboto', sans-serif;
     color: #fff;
     font-size: 25vw;
-    left: 85%;
+    left: 75%;
+    z-index: -1;
+    bottom: 15%;
+}
+
+.topic-number-left {
+    display: block;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 25vw;
+    left: 60%;
     z-index: -1;
     bottom: 15%;
 }
